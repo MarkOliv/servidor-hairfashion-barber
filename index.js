@@ -2,10 +2,10 @@ import { createClient } from "@supabase/supabase-js";
 import * as OneSignal from "@onesignal/node-onesignal";
 
 // Onesignal notifications configuration...
-const ONESIGNAL_APP_ID = "d9aae11f-f0ba-4c4f-a5ac-bb9b83792f14";
+const ONESIGNAL_APP_ID = "be52199d-a047-430a-b3fd-e3ba2cb55d6d";
 const ONESIGNAL_API_REST_KEY = {
   getToken() {
-    return "NDgyOTIyMmUtMWU1Yy00ODFlLWJjNTUtOGM5YjhmYjkzODA3";
+    return "ZGI5MjRlZTQtZjA4ZS00ODNkLWIyN2YtZDRkNzUyNGFkNTQ1";
   },
 };
 const configuration = OneSignal.createConfiguration({
