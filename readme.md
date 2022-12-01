@@ -19,7 +19,14 @@ obs: to work add this in your package.json
 
 # Client Side
 
-In ionic react app add import the followig module onesignal-cordova-plugin. After this just add the function below
+In the ionic projetct use following the commands
+
+- ionic capacitor add android
+- npm install onesignal-cordova-plugin
+- ionic capacitor build android
+- npx cap sync
+
+
 
 ```
  import OneSignal from "onesignal-cordova-plugin";
@@ -38,6 +45,16 @@ In ionic react app add import the followig module onesignal-cordova-plugin. Afte
   };
 
 ```
+
+## Important to build the apk !!!
+
+In the Android Studio need update project settings to target Android 13. To do it, update compileSdkVersion to 33 and targetSdkVersion to 33.
+
+read more in Step 4: https://documentation.onesignal.com/docs/ionic-sdk-setup
+
+In addition, need to specify `android:exported=false` in the android manifest file. 
+
+read more in: https://developer.android.com/about/versions/12/behavior-changes-12#exported
 
 
 - author: Mark Oliv
