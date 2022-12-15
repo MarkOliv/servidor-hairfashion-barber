@@ -26,7 +26,7 @@ In the ionic projetct use following the commands
 - ionic capacitor build android
 - npx cap sync
 
-
+ a
 
 ```
  import OneSignal from "onesignal-cordova-plugin";
