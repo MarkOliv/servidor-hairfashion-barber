@@ -1,7 +1,7 @@
 import { createClient } from "@supabase/supabase-js";
 import * as OneSignal from "@onesignal/node-onesignal";
 
-var express = require('express');
+import express from "express";
 var app     = express();
 
 app.set('port', (process.env.PORT || 5000));
